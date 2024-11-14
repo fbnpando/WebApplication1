@@ -2,4 +2,46 @@
 @model WebApplication1.Pages.ContactosModel
 @{
 }
-ADIOS
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css">  <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/Home/About">Sobre Nosotros</a></li>
+                <li><a href="/Home/Contact">Contactos</a></li>
+                <li><a href="/Account/Login">Cuenta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h1>Sobre Nosotros</h1>
+            <p>Somos una empresa dedicada a ofrecer soluciones innovadoras a nuestros clientes. Nuestra misión es proporcionar productos y servicios de alta calidad que ayuden a mejorar la vida de las personas.</p>
+
+            <h2>¿Quiénes Somos?</h2>
+            <p>Fundada en 2020, hemos crecido rápidamente y ahora somos líderes en el mercado de soluciones tecnológicas.</p>
+
+            <h2>Nuestros Valores</h2>
+            <ul>
+                <li>Innovación constante</li>
+                <li>Compromiso con la calidad</li>
+                <li>Orientación al cliente</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nuestra Empresa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
